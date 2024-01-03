@@ -10,7 +10,7 @@ body {
     float: center;
 }
 
-content {
+div.content {
     border: solid #5d5493;
     max-width: 900px;
     align-content: center;
