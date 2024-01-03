@@ -1,0 +1,35 @@
+/*Color pallette
+#756AB6 --> #5d5493 25% darker
+#AC87C5
+#E0AED0 --> #a35b8d 25% darker
+#FFE5E5
+
+/*BODY*/
+body {
+    background-color: #756AB6;
+    float: center;
+}
+
+content {
+    border: solid #5d5493;
+    max-width: 1200px;
+    align-content: center;
+    background-color: #AC87C5;
+}
+/*DIV INTRO*/
+
+/*DIV MENU*/
+div.menu {
+    background-color: #FFE5E5;
+}
+/* LINKS*/
+a {
+    text-decoration: none;
+    color: #a35b8d;
+    display: block;
+}
+
+/*HEADINGS*/
+h1 {
+    color: #5d5493;
+}
