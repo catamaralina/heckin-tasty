@@ -1,35 +1,74 @@
 /*Color pallette
-#756AB6 --> #5d5493 25% darker
-#AC87C5
-#E0AED0 --> #a35b8d 25% darker
-#FFE5E5
+pinks: 
+#F9AABB --> #fed5dc 15% lighter --> #e46b85 25% darker
+#fff1f3 --> pink off white
+
+greys: 
+#25242A
+white
+
+greens:
+a: hover color: #065544;
 
 /*BODY*/
 body {
-    background-color: #756AB6;
+    background-color: #F9AABB;
     float: center;
 }
 
-div.content {
-    border: solid #5d5493;
+div.intro, .banner, .section {
+    border: solid #e46b85 2px;
     max-width: 900px;
     align-content: center;
-    background-color: #AC87C5;
+    background-color: #25242A;
+    margin: auto;
+    padding: 20px;
+    float: center;
+    margin-bottom: 10px;
+    height: auto;
 }
-/*DIV INTRO*/
 
-/*DIV MENU*/
-div.menu {
-    background-color: #FFE5E5;
+div.banner {
+    background-color: white;
 }
-/* LINKS*/
+
+div.menu {
+    border: solid #F9AABB;
+    background-color: none;
+    max-width: 30%;
+    margin: auto;
+}
+
+.section {
+    border-color: #25242A;
+    background-color: white;
+}
+/*HEADINGS*/
+
+h1, h2, h3, p, a {
+    color: #25242A;
+    text-align: center;
+}
+h1.menu, h2.menu, p.menu, a.menu {
+    color: white;
+}
+
+
+
 a {
     text-decoration: none;
-    color: #a35b8d;
     display: block;
 }
 
-/*HEADINGS*/
-h1 {
-    color: #5d5493;
+img {
+    display: block;
+    float: center;
+    margin: auto;
+    max-width: 100%;
 }
+
+
+
+
+
+
