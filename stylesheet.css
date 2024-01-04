@@ -42,9 +42,30 @@ div.menu {
     margin: auto;
 }
 
+
 .section {
     border-color: #25242A;
     background-color: white;
+    position: relative;
+    float: inline;
+
+}
+
+.container {
+    /*border: solid black 2px; */
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 0px;
+}
+div.sidemenu {
+    border: solid #F9AABB 2px;
+    background-color: none;
+    height: 100%;
+    float: right;
+    position: relative;
+    align-self: right;
+    margin-top: 2px;  /*to line up image and menu appropriately*/
 }
 /*HEADINGS*/
 
@@ -65,13 +86,20 @@ a:hover {
     color: #e46b85;
 }
 
-img {
+img.main {
     display: block;
     float: center;
     margin: auto;
     max-width: 100%;
 }
 
+img.side {
+    float: left;
+    margin: auto;
+    max-width: 100%;
+    height: 100%;
+    border: solid #F9AABB 2px;
+}
 
 
 
