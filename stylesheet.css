@@ -8,12 +8,13 @@ greys:
 white
 
 greens:
-a: hover color: #065544;
+;
 
 /*BODY*/
 body {
     background-color: #F9AABB;
     float: center;
+    font-family: 'Lucida Sans Regular', sans-serif;
 }
 
 div.intro, .banner, .section {
@@ -30,6 +31,8 @@ div.intro, .banner, .section {
 
 div.banner {
     background-color: white;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
 div.menu {
@@ -53,11 +56,13 @@ h1.menu, h2.menu, p.menu, a.menu {
     color: white;
 }
 
-
-
 a {
     text-decoration: none;
     display: block;
+}
+
+a:hover {
+    color: #e46b85;
 }
 
 img {
