@@ -17,7 +17,11 @@ body {
     font-family: 'Lucida Sans Regular', sans-serif;
 }
 
-div.intro, .banner, .section, .sub, .solo {
+.soloback{
+    background-color: #25242A;
+}
+
+div.intro, .banner, .section, .sub, .solo, .pinkcard {
     border: solid #e46b85 2px;
     max-width: 900px;
     align-content: center;
@@ -58,8 +62,12 @@ div.menu {
 
 .solo {
     background-color: #25242A;
+
 }
 
+.pinkcard {
+    background-color: #F9AABB;  
+}
 .container {
     /*border: solid black 2px; */
     display: grid;
@@ -95,6 +103,9 @@ a {
     padding: 5px;
 }
 
+a.spice {
+    color: black;
+}
 .source {
     text-align: left;
     color: grey;

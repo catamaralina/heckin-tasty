@@ -1,5 +1,5 @@
-<div class="section"> 
 <!---   ---   ---recipe---   ---   --->
+<div class="section"> 
     <h2 id="">NAME</h2>
     <p>Effort level: ,  min</p>
     <p>Makes 4</p>
