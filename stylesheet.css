@@ -17,17 +17,21 @@ body {
     font-family: 'Lucida Sans Regular', sans-serif;
 }
 
-div.intro, .banner, .section {
+div.intro, .banner, .section, .sub, .solo {
     border: solid #e46b85 2px;
     max-width: 900px;
     align-content: center;
     background-color: #25242A;
     margin: auto;
     padding: 20px;
-    float: center;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     height: auto;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
+    position: relative;
+    float: inline;
+    border: none;
 }
+
 
 div.banner {
     background-color: white;
@@ -40,15 +44,20 @@ div.menu {
     background-color: none;
     max-width: 30%;
     margin: auto;
+    padding-bottom: 20px;
 }
 
 
 .section {
-    border-color: #25242A;
     background-color: white;
-    position: relative;
-    float: inline;
+}
 
+.sub {
+    background-color: #F9AABB;
+}
+
+.solo {
+    background-color: #25242A;
 }
 
 .container {
@@ -57,6 +66,7 @@ div.menu {
     align-items: center;
     grid-template-columns: 1fr 1fr;
     column-gap: 0px;
+    align-items: start;
 }
 .sidemenu {
     border: solid #F9AABB 2px;
@@ -70,20 +80,25 @@ div.menu {
 
 
 /*TEXT FORMATTING*/
-h1, h2, h3, p, a {
+h1, h2, h3, p {
     color: #25242A;
     text-align: center;
 }
-h1.menu, h2.menu, p.menu, a.menu {
+h1.menu, h2.menu, a, p.menu {
     color: white;
+    text-align: center;
 }
 
 a {
     text-decoration: none;
     display: block;
+    padding: 5px;
 }
+
 .source {
     text-align: left;
+    color: grey;
+    padding: none;
 }
 
 a:hover {
@@ -117,6 +132,25 @@ iframe {
     position: relative;
 }
 
-
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: 1px solid white;
+    background-color: #F9AABB; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+    opacity: .75;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
 
 
