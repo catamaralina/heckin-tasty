@@ -7,18 +7,20 @@
 </head>
 
 <body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
     <div class="banner">
         <img class="main" src="images/header.png" alt="Catamaralina's heckin' tasty recipes">
     </div>
 
-    <div class="intro">
+    <div class="intro" id="scroll">
         <div>
             <h1 class="menu">Catamaralina's Heckin' Tasty Recipes</h1>
             <p class="menu">Yes, I've tried these. And made them again.</p>
             <p class="menu">And again. . .</p>
         </div>
         
-        <div class="menu">
+        <div class="menu"  >
             <h2 class="menu">Menu</h2>
             <a href="breakfast.html">Breakfast</a>
             <a href="breakfast.html#pancake">Pancakes!</a>
@@ -35,21 +37,21 @@
 <div class="section">
     <div class="container">
         <div>
-            <img src="images/dinner.png" alt="spice mixes">
+            <img src="images/spices.png" alt="spice mixes">
         </div>
-        <div>
+        <div class="sidemenu">
             <h2>Spice Mixes</h2>
             <a class="spice" href="#speculaas">Speculaas</a>
+            <a class="spice" href="#creole">Creole</a>
         </div>
     </div>
 
 </div>
 
-<div class="section">
-    <h2 id="speculaas">Speculaas</h2>
-    <p>Effort level: not much</p>
-    <p>Makes 1-2 dozen</p>
-    <p>Note: Makes an excellent gluten free pie crust</p>
+<!-- Speculaas -->
+<div class="blackcard">
+    <h2 class="menu" id="speculaas">Speculaas</h2>
+    <p>Effort level: just finding the spices lol</p>
     <div class="container">
         <div>
             <h4>Ingredients</h4>
@@ -77,7 +79,35 @@
     <a class="source" href="https://www.modernhoney.com/the-best-coconut-macaroons/" alt="Coconut Macaroons">Click here.</a>
 </div>
 
+<!-- Creole Seasong -->
+<div class="blackcard">
+    <h2 class="menu" id="creole">Creole</h2>
+    <p>Effort level: just finding the spices lol</p>
+    <div class="container">
+        <div>
+            <h4>Ingredients</h4>
+            <ul>
+                <li>5 Tbsp paprika</li>
+                <li>3 Tbsp salt</li>
+                <li>2 Tbsp onion powder</li>
+                <li>2 Tbsp garlic powder</li>
+                <li>2 Tbsp dried oregano</li>
+                <li>2 Tbsp dried basil</li>
+                <li>1 Tbsp dried thyme</li>
+                <li>1 Tbsp black pepper</li>
+                <li>1 Tbsp white pepper</li>
+                <li>1 Tbsp cayenne pepper</li>
+            </ul>
+        </div>
+
+    </div>
+    <h4>Source:</h4>
+    <a class="source" href="https://www.allrecipes.com/recipe/38214/creole-seasoning-blend/" alt="Creole seasoning blend">Click here.</a>
+</div>
+
 <div class="banner">
     <img class="main" src="images/footer.png" alt="cat friendly kitchen; itadakimasu">
 </div>
+
+<script src="script.js"></script>
 </body>

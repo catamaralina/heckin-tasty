@@ -21,7 +21,7 @@ body {
     background-color: #25242A;
 }
 
-div.intro, .banner, .section, .sub, .solo, .pinkcard {
+div.intro, .banner, .section, .sub, .solo, .pinkcard, .blackcard, #scroll{
     border: solid #e46b85 2px;
     max-width: 900px;
     align-content: center;
@@ -30,12 +30,11 @@ div.intro, .banner, .section, .sub, .solo, .pinkcard {
     padding: 20px;
     margin-bottom: 20px;
     height: auto;
-    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 20px 30px rgba(95, 95, 95, 0.15);
     position: relative;
     float: inline;
     border: none;
 }
-
 
 div.banner {
     background-color: white;
@@ -50,7 +49,6 @@ div.menu {
     margin: auto;
     padding-bottom: 20px;
 }
-
 
 .section {
     background-color: white;
@@ -68,6 +66,11 @@ div.menu {
 .pinkcard {
     background-color: #F9AABB;  
 }
+
+.blackcard {
+    background-color: #25242A;
+    color: white;  
+}
 .container {
     /*border: solid black 2px; */
     display: grid;
@@ -83,7 +86,7 @@ div.menu {
     float: right;
     position: relative;
     align-self: right;
-    margin-top: 4px;  /*to line up image and menu appropriately*/
+    margin-top: 5px;  /*to line up image and menu appropriately*/
 }
 
 
@@ -92,6 +95,7 @@ h1, h2, h3, p {
     color: #25242A;
     text-align: center;
 }
+
 h1.menu, h2.menu, a, p.menu {
     color: white;
     text-align: center;
@@ -105,6 +109,7 @@ a {
 
 a.spice {
     color: black;
+
 }
 .source {
     text-align: left;
@@ -160,8 +165,6 @@ iframe {
     box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
   }
   
-  #myBtn:hover {
+#myBtn:hover {
     background-color: #555; /* Add a dark-grey background on hover */
   }
-
-
