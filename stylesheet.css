@@ -96,7 +96,7 @@ h1, h2, h3, p {
     text-align: center;
 }
 
-h1.menu, h2.menu, a, p.menu {
+h1.menu, h2.menu, h4.menu, a, p.menu {
     color: white;
     text-align: center;
 }
